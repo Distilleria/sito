@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Distilleria del romanzo</title>
+  <meta name="title" content="La Distilleria del romanzo">
+  <meta name="description" content="Hai appena finito un romanzo e adesso non sai cosa leggere? Visita la mia pagina per trovare consigli di lettura, recensioni e altre ispirazioni librose.">
+  <meta name=”robots” content="index, follow">
+  <meta name="author" content="Gaia Coltorti" />
+  <meta name="copyright" content="La Distilleria del romanzo"/>
+  <meta name="keywords" content="Gaia Coltorti, romanzi, affinità, alchemiche, whiskey, stelle, inchiostro, Mondadori, scrittura, creativa, recensioni, consigli di lettura">  
+  <link rel="shortcut icon" href="img/LOGO.png" type="image/png">	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  referrerpolicy="no-referrer"/>
+</head>
+	<body>
+	
+    <header>       
+        <!-- nav -->
+	    <nav>          
+           	<!-- logo <a href="index.html"><img src="img/LOGO.png" alt="La Distilleria del romanzo Logo"></a> -->
+    <img src="img/moon.png" id="icon" alt="Dark mode">
+		<label for="toggler">
+			<i class="fa fa-bars"></i>
+		</label>        
+	<input type="checkbox" id="toggler" name="">
+		<div class="menu">
+			<ul class="list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="recensioni.html">Recensioni</a></li>
+				<li><a href="scrittura.html">Scrittura creativa</a></li>			
+			</ul>            
+		</div>
+	    </nav>
+         <!-- end of nav -->
+    </header>	             
+          <!-- main -->
+		  <main>      
+            <div class="container">                 
+                
+                <section class="bar">
+                    <form>
+                        <i class="fas fa-search"></i>
+                        <input type="text" name="" id="search-item" placeholder="cerca recensioni" onkeyup="search()">
+                    </form>
+                    </section>            
+
+                <div class="options">
+                    <a href="#"class="btn" data-filter="all">All</a>
+                    <a href="#"class="btn"data-filter="mainstream">Mainstream</a>
+                    <a href="#"class="btn"data-filter="horror">Horror</a>
+                    <a href="#"class="btn"data-filter="romance">Romance</a>
+                    <a href="#"class="btn"data-filter="erotica">Erotica</a>
+                    <a href="#"class="btn"data-filter="fiction-storica">Fiction storica</a>
+                    <a href="#"class="btn"data-filter="azione">Azione</a>
+                    <a href="#"class="btn"data-filter="avventura">Avventura</a>
+                    <a href="#"class="btn"data-filter="humour">Humour</a>
+                    <a href="#"class="btn"data-filter="sci-fi">Sci-fi</a>
+                     <!-- <a href="#"class="btn"data-filter="giallo">Giallo</a>
+                    <a href="#"class="btn"data-filter="thriller">Thriller</a>-->
+                    
+                </div>
+
+                <div class="box" id="book-genres">
+
+                    <div class="book-genre mainstream humour">
+                        <a href="recensioni/ziaMame.html" target="_blank"><img src="img/ziaMame.png" width="200" alt="zia Mame copertina libro" class="book-mainstream humour"></a>
+                        <p>zia Mame</p>
+                    </div>
+
+                    <div class="book-genre horror">
+                        <a href="recensioni/petSematary.html" target="_blank"><img src="img/petSematary.png" width="200" alt="Pet sematary copertina libro" class="book-horror"></a>
+                        <p>Pet sematary</p>
+                    </div>
+
+                    <div class="book-genre sci-fi">
+                        <a href="recensioni/ubik.html" target="_blank"><img src="img/ubik.png" width="200" alt="ubik copertina libro" class="book-sci-fi"></a>
+                        <p>ubik</p>
+                    </div>
+
+                    <div class="book-genre mainstream romance erotica">
+                        <a href="recensioni/beijingStory.html" target="_blank"><img src="img/beijingStory.png" width="200" alt="Beijing story copertina libro" class="book-mainstream romance erotica"></a>
+                        <p>Beijing story</p>
+                    </div>
+
+                    <div class="book-genre mainstream">
+                        <a href="recensioni/famWinshaw.html" target="_blank"><img src="img/fam winshaw.jpg" width="200" alt="Dona Flor e i suoi due mariti copertina libro" class="book-romance"></a>
+                        <p>La famiglia Winshaw</p>
+                    </div>
+
+                    <div class="book-genre romance">
+                        <a href="recensioni/donaFlor.html" target="_blank"><img src="img/donaFlor.png" width="200" alt="Dona Flor e i suoi due mariti copertina libro" class="book-romance"></a>
+                        <p>Dona Flor e i suoi due mariti</p>
+                    </div>
+
+                    <div class="book-genre mainstream">
+                        <a href="recensioni/seraDorata.html" target="_blank"><img src="img/seraDorata.png" width="200" alt="Quella sera dorata copertina libro" class="book-mainstream"></a>
+                        <p>Quella sera dorata</p>
+                    </div>
+
+                    <div class="book-genre romance">
+                        <a href="recensioni/letteraDamore.html" target="_blank"><img src="img/letterDamore.png" width="200" alt="La lettera d'amore copertina libro" class="book-romance"></a>
+                        <p>La lettera d'amore</p>
+                    </div>
+
+                    <div class="book-genre azione">
+                        <a href="recensioni/destinazioneInferno.html" target="_blank"><img src="img/destinazioneInferno.png" width="200" alt="Hap e Leonard copertina libro" class="book-thriller giallo horror"></a>
+                        <p>Destinazione inferno</p>
+                    </div>
+
+                    <div class="book-genre azione avventura">
+                        <a href="recensioni/hap e leonard serie.html" target="_blank"><img src="img/hap e leonard serie.jpg" width="200" alt="Hap e Leonard copertina libro" class="book-azione avventura"></a>
+                        <p>Hap e Leonard</p>
+                    </div>
+                   
+                    <div class="book-genre horror">
+                        <a href="recensioni/blackwater.html" target="_blank"><img src="img/blackwater.jpg" width="200" alt="blackwater copertina libro" class="book-horror"></a>
+                        <p>Blackwater</p>
+                    </div>
+
+                    <div class="book-genre horror">
+                        <a href="recensioni/esorcista.html" target="_blank"><img src="img/l'esorcista.jpg" width="200" alt="l'esorcista copertina libro" class="book-horror"></a>
+                        <p>L'esorcista</p>
+                    </div>
+                    
+                    <div class="book-genre horror">
+                        <a href="recensioni/casadifoglie.html" target="_blank"><img src="img/casa di foglie.jpg" width="200" alt="casa di foglie copertina libro" class="book-horror"></a>
+                        <p>Casa di foglie</p>
+                    </div>                    
+                    
+                    <div class="book-genre romance erotica">
+                        <a href="recensioni/badsexaward.html" target="_blank"><img src="img/bad sex fiction award.jpg" width="200" alt="le più brutte scene di sesso nei libri" class="book-romance erotica">/a>
+                        <p>Bad sex fiction award</p>
+                    </div>  
+                    
+                    <div class="book-genre mainstream fiction-storica">
+                        <a href="recensioni/weyward.html" target="_blank"><img src="img/weyward.jpg" width="200" alt="weyward copertina libro" class="book-mainstream fiction-storica">
+                        <p>Weyward</p></a>
+                    </div>  
+                     
+                    <div class="book-genre fiction-storica">
+                        <a href="recensioni/cittàladri.html" target="_blank"><img src="img/la città dei ladri.jpg" width="200" alt="la città dei ladri copertina libro" class="book-fiction-storica">
+                        <p>La città dei ladri</p></a>
+                    </div>                
+
+                    <div class="book-genre mainstream fiction-storica">
+                        <a href="recensioni/lucechemanca.html" target="_blank"><img src="img/la luce che manca.jpg" width="200" alt="la luce che manca copertina libro" class="book-mainstream fiction-storica"></a>
+                        <p>La luce che manca</p>
+                    </div>                   
+
+                    <div class="book-genre mainstream">
+                        <a href="recensioni/vegetariana.html" target="_blank"><img src="img/la vegetariana.jpg" width="200" alt="la vegetariana copertina libro" class="book-mainstream"></a>
+                        <p>La vegetariana</p>
+                    </div>                                  
+                      
+
+                    <div class="book-genre mainstream">
+                        <a href="recensioni/etàfragile.html" target="_blank"><img src="img/L'età fragile - recensione.jpg" width="200" alt="l'età fragile'" class="book-mainstream"></a>
+                        <p>L'età fragile</p>
+                    </div>           
+                                   
+                </div>          
+            
+            </div>
+        </main>
+        <!-- end of main -->
+
+        <!-- footer -->
+        <footer class="page-footer">            
+            <p>
+              &copy; <span id="currentYear"></span>
+              <span class="footer-logo"><a href="index.html">Distilleria del romanzo</a></span> 
+            </p>            
+        </footer>	
+        <!-- end of footer-->>
+
+        <!-- javascript -->
+	    <script type="text/javascript" src="app.js"></script>  
+
+</body>
+</html>
